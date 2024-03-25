@@ -102,7 +102,7 @@ model.load_weights('../models/model_weights_base.h5',by_name=True)
 detector = dlib.get_frontal_face_detector()
 
 # Load the predictor
-predictor = dlib.shape_predictor("../model/face_weights.dat")
+predictor = dlib.shape_predictor("../models/face_weights.dat")
 
 # read the image
 cap = cv2.VideoCapture(0)
